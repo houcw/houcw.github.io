@@ -6,7 +6,7 @@
   <link href="https://houcw.github.io/atom.xml" rel="self"/>
   
   <link href="https://houcw.github.io/"/>
-  <updated>2024-03-25T14:21:47.466Z</updated>
+  <updated>2024-03-26T14:06:56.665Z</updated>
   <id>https://houcw.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据转换函数封装</title>
+    <link href="https://houcw.github.io/2024/03/26/%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2%E5%87%BD%E6%95%B0%E5%B0%81%E8%A3%85/"/>
+    <id>https://houcw.github.io/2024/03/26/%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2%E5%87%BD%E6%95%B0%E5%B0%81%E8%A3%85/</id>
+    <published>2024-03-26T14:06:22.000Z</published>
+    <updated>2024-03-26T14:06:56.665Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在前端开发中，我们经常需要处理数据的转换。有时候，我们需要将某种格式的数据转换为另一种格式，这可能涉及到字符串、数组等不同数据类型的转换。在这篇博客中，我们将介绍一个名为 &lt;code&gt;translateDict&lt;/code&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>前端常用正则表达式整理</title>
