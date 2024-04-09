@@ -6,7 +6,7 @@
   <link href="https://houcw.github.io/atom.xml" rel="self"/>
   
   <link href="https://houcw.github.io/"/>
-  <updated>2024-03-27T13:39:22.588Z</updated>
+  <updated>2024-04-09T13:50:22.457Z</updated>
   <id>https://houcw.github.io/</id>
   
   <author>
@@ -15,6 +15,70 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基于Vue的权限管理方案（大体流程设计）</title>
+    <link href="https://houcw.github.io/2024/04/09/%E5%9F%BA%E4%BA%8EVue%E7%9A%84%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88%EF%BC%88%E5%A4%A7%E4%BD%93%E6%B5%81%E7%A8%8B%E8%AE%BE%E8%AE%A1%EF%BC%89/"/>
+    <id>https://houcw.github.io/2024/04/09/%E5%9F%BA%E4%BA%8EVue%E7%9A%84%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88%EF%BC%88%E5%A4%A7%E4%BD%93%E6%B5%81%E7%A8%8B%E8%AE%BE%E8%AE%A1%EF%BC%89/</id>
+    <published>2024-04-09T13:50:03.000Z</published>
+    <updated>2024-04-09T13:50:22.457Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;基于Vue的权限管理方案&quot;&gt;&lt;a href=&quot;#基于Vue的权限管理方案&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Vue 3.0单文件组件实现手机号和身份证号加密显示功能</title>
+    <link href="https://houcw.github.io/2024/04/09/Vue-3-0%E5%8D%95%E6%96%87%E4%BB%B6%E7%BB%84%E4%BB%B6%E5%AE%9E%E7%8E%B0%E6%89%8B%E6%9C%BA%E5%8F%B7%E5%92%8C%E8%BA%AB%E4%BB%BD%E8%AF%81%E5%8F%B7%E5%8A%A0%E5%AF%86%E6%98%BE%E7%A4%BA%E5%8A%9F%E8%83%BD/"/>
+    <id>https://houcw.github.io/2024/04/09/Vue-3-0%E5%8D%95%E6%96%87%E4%BB%B6%E7%BB%84%E4%BB%B6%E5%AE%9E%E7%8E%B0%E6%89%8B%E6%9C%BA%E5%8F%B7%E5%92%8C%E8%BA%AB%E4%BB%BD%E8%AF%81%E5%8F%B7%E5%8A%A0%E5%AF%86%E6%98%BE%E7%A4%BA%E5%8A%9F%E8%83%BD/</id>
+    <published>2024-04-09T13:49:07.000Z</published>
+    <updated>2024-04-09T13:49:24.181Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;随着Web应用程序的发展，我们经常需要处理用户敏感信息，如手机号码和身份证号码。为了保护用户隐私，我们需要在前端对这些信息进行加密处理，以避免直接暴露在页面上。在这篇博客中，我们将介绍如何使用Vue</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>前端实现流文件下载的完整指南</title>
+    <link href="https://houcw.github.io/2024/04/09/%E5%89%8D%E7%AB%AF%E5%AE%9E%E7%8E%B0%E6%B5%81%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E7%9A%84%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/"/>
+    <id>https://houcw.github.io/2024/04/09/%E5%89%8D%E7%AB%AF%E5%AE%9E%E7%8E%B0%E6%B5%81%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E7%9A%84%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</id>
+    <published>2024-04-09T13:47:10.000Z</published>
+    <updated>2024-04-09T13:47:59.744Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在现代Web开发中，经常会遇到需要从服务器下载文件的情况。有时候这些文件是事先存储好的，可以通过简单的URL链接直接下载；但有时候，我们需要从数据流中动态生成文件并将其提供给用户。本篇博客将介绍如何在前端实现流文件下载的完整指南。&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>基于Vue.js 实现简单的拖拽功能自定义指令</title>
