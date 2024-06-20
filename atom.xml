@@ -6,7 +6,7 @@
   <link href="https://houcw.github.io/atom.xml" rel="self"/>
   
   <link href="https://houcw.github.io/"/>
-  <updated>2024-06-02T12:48:33.809Z</updated>
+  <updated>2024-06-20T13:46:22.464Z</updated>
   <id>https://houcw.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>低代码平台实践：打造高效动态表单解决方案的探索与思考</title>
+    <link href="https://houcw.github.io/2024/06/20/%E4%BD%8E%E4%BB%A3%E7%A0%81%E5%B9%B3%E5%8F%B0%E5%AE%9E%E8%B7%B5%EF%BC%9A%E6%89%93%E9%80%A0%E9%AB%98%E6%95%88%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E7%9A%84%E6%8E%A2%E7%B4%A2%E4%B8%8E%E6%80%9D%E8%80%83/"/>
+    <id>https://houcw.github.io/2024/06/20/%E4%BD%8E%E4%BB%A3%E7%A0%81%E5%B9%B3%E5%8F%B0%E5%AE%9E%E8%B7%B5%EF%BC%9A%E6%89%93%E9%80%A0%E9%AB%98%E6%95%88%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E7%9A%84%E6%8E%A2%E7%B4%A2%E4%B8%8E%E6%80%9D%E8%80%83/</id>
+    <published>2024-06-20T13:44:29.000Z</published>
+    <updated>2024-06-20T13:46:22.464Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;🔥需求背景&quot;&gt;&lt;a href=&quot;#🔥需求背景&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>打造你的专属Vue组件：基于FullCalendar超实用“日程任务管理组件”实战</title>
@@ -29,6 +50,70 @@
         
         
     <summary type="html">&lt;h1 id=&quot;打造你的专属Vue组件：基于FullCalendar超实用“日程任务管理组件”实战&quot;&gt;&lt;a href=&quot;#打造你的专属Vue组件：基于FullCalendar超实用“日程任务管理组件”实战&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>基于Vue3.0 &amp; Node.js 的 大文件切片上传、秒传、断点续传实现方案梳理</title>
+    <link href="https://houcw.github.io/2024/05/24/%E5%9F%BA%E4%BA%8EVue3-0-Node-js-%E7%9A%84-%E5%A4%A7%E6%96%87%E4%BB%B6%E5%88%87%E7%89%87%E4%B8%8A%E4%BC%A0%E3%80%81%E7%A7%92%E4%BC%A0%E3%80%81%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%A1%88%E6%A2%B3%E7%90%86/"/>
+    <id>https://houcw.github.io/2024/05/24/%E5%9F%BA%E4%BA%8EVue3-0-Node-js-%E7%9A%84-%E5%A4%A7%E6%96%87%E4%BB%B6%E5%88%87%E7%89%87%E4%B8%8A%E4%BC%A0%E3%80%81%E7%A7%92%E4%BC%A0%E3%80%81%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%A1%88%E6%A2%B3%E7%90%86/</id>
+    <published>2024-05-24T13:43:53.000Z</published>
+    <updated>2024-06-20T13:46:40.759Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;✨💻 在处理大文件上传时，切片上传是提高效率与用户体验的关键技术之一。下面将详细介绍如何在前端利用Vue框架与Node.js后端配合，实现这一功能。&lt;/p&gt;
+&lt;h2 id=&quot;👆🏻大体流程&quot;&gt;&lt;a href=&quot;#👆🏻大体流程&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于前端不同窗口之间如何通信的思考（Ifream页面之间、App与H5之间）</title>
+    <link href="https://houcw.github.io/2024/05/21/%E5%85%B3%E4%BA%8E%E5%89%8D%E7%AB%AF%E4%B8%8D%E5%90%8C%E7%AA%97%E5%8F%A3%E4%B9%8B%E9%97%B4%E5%A6%82%E4%BD%95%E9%80%9A%E4%BF%A1%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%88Ifream%E9%A1%B5%E9%9D%A2%E4%B9%8B%E9%97%B4%E3%80%81App%E4%B8%8EH5%E4%B9%8B%E9%97%B4%EF%BC%89/"/>
+    <id>https://houcw.github.io/2024/05/21/%E5%85%B3%E4%BA%8E%E5%89%8D%E7%AB%AF%E4%B8%8D%E5%90%8C%E7%AA%97%E5%8F%A3%E4%B9%8B%E9%97%B4%E5%A6%82%E4%BD%95%E9%80%9A%E4%BF%A1%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%88Ifream%E9%A1%B5%E9%9D%A2%E4%B9%8B%E9%97%B4%E3%80%81App%E4%B8%8EH5%E4%B9%8B%E9%97%B4%EF%BC%89/</id>
+    <published>2024-05-21T13:43:04.000Z</published>
+    <updated>2024-06-20T13:45:36.289Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前端不同窗口之间通信：iframe页面、App与H5的交互&quot;&gt;&lt;a href=&quot;#前端不同窗口之间通信：iframe页面、App与H5的交互&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>打造你的专属Vue组件：超实用“鱼骨步骤条“组件实战开发</title>
+    <link href="https://houcw.github.io/2024/05/20/%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84%E4%B8%93%E5%B1%9EVue%E7%BB%84%E4%BB%B6%EF%BC%9A%E8%B6%85%E5%AE%9E%E7%94%A8%E2%80%9C%E9%B1%BC%E9%AA%A8%E6%AD%A5%E9%AA%A4%E6%9D%A1%E2%80%9C%E7%BB%84%E4%BB%B6%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91/"/>
+    <id>https://houcw.github.io/2024/05/20/%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84%E4%B8%93%E5%B1%9EVue%E7%BB%84%E4%BB%B6%EF%BC%9A%E8%B6%85%E5%AE%9E%E7%94%A8%E2%80%9C%E9%B1%BC%E9%AA%A8%E6%AD%A5%E9%AA%A4%E6%9D%A1%E2%80%9C%E7%BB%84%E4%BB%B6%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91/</id>
+    <published>2024-05-20T13:43:27.000Z</published>
+    <updated>2024-06-20T13:45:03.871Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;🎉</summary>
         
       
     
@@ -355,50 +440,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>Vue常用的修饰符总结</title>
-    <link href="https://houcw.github.io/2021/03/20/Vue%E5%B8%B8%E7%94%A8%E7%9A%84%E4%BF%AE%E9%A5%B0%E7%AC%A6%E6%80%BB%E7%BB%93/"/>
-    <id>https://houcw.github.io/2021/03/20/Vue%E5%B8%B8%E7%94%A8%E7%9A%84%E4%BF%AE%E9%A5%B0%E7%AC%A6%E6%80%BB%E7%BB%93/</id>
-    <published>2021-03-20T15:42:29.000Z</published>
-    <updated>2024-03-24T08:42:59.300Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;vue常用修饰符&quot;&gt;&lt;a href=&quot;#vue常用修饰符&quot; class=&quot;headerlink&quot; title=&quot;vue常用修饰符&quot;&gt;&lt;/a&gt;vue常用修饰符&lt;/h1&gt;&lt;h2 id=&quot;sync-修饰符&quot;&gt;&lt;a href=&quot;#sync-修饰符&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Vue3.0中watch()和watchEffect()都有哪些区别</title>
-    <link href="https://houcw.github.io/2021/03/20/Vue3-0%E4%B8%ADwatch-%E5%92%8CwatchEffect-%E9%83%BD%E6%9C%89%E5%93%AA%E4%BA%9B%E5%8C%BA%E5%88%AB/"/>
-    <id>https://houcw.github.io/2021/03/20/Vue3-0%E4%B8%ADwatch-%E5%92%8CwatchEffect-%E9%83%BD%E6%9C%89%E5%93%AA%E4%BA%9B%E5%8C%BA%E5%88%AB/</id>
-    <published>2021-03-20T14:11:08.000Z</published>
-    <updated>2024-03-24T08:27:20.858Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;watch-与-watchEffect-的主要区别&quot;&gt;&lt;a href=&quot;#watch-与-watchEffect-的主要区别&quot; class=&quot;headerlink&quot; title=&quot;watch() 与 watchEffect()</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Vue3相关" scheme="https://houcw.github.io/tags/Vue3%E7%9B%B8%E5%85%B3/"/>
     
   </entry>
   
