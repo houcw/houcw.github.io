@@ -1,0 +1,252 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>“代码规范”这样做【高级前端必备软技能之一】 | kevin.hou.477的空间</title><meta name="author" content="kevin.hou.477"><meta name="copyright" content="kevin.hou.477"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="✨在前端开发领域，良好的代码规范是团队协作、项目可维护性的基石。最近在梳理我们团队关于代码规范相关的一些文档，顺便给大家分享一下我们是从哪些方面入手来从一个草台班子，到开发规范的高效团队。✨本文旨在提供一份详尽的前端代码规范指南，覆盖文件命名、组件编写、路由设计及代码风格等方面，帮助开发者建立清晰、一致的开发准则，进而提升项目质量与开发效率。 🚀1.文件命名规范 src下文件目录命名规范 api">
+<meta property="og:type" content="article">
+<meta property="og:title" content="“代码规范”这样做【高级前端必备软技能之一】">
+<meta property="og:url" content="https://houcw.github.io/2024/06/30/%E2%80%9C%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E2%80%9D%E8%BF%99%E6%A0%B7%E5%81%9A%E3%80%90%E9%AB%98%E7%BA%A7%E5%89%8D%E7%AB%AF%E5%BF%85%E5%A4%87%E8%BD%AF%E6%8A%80%E8%83%BD%E4%B9%8B%E4%B8%80%E3%80%91/index.html">
+<meta property="og:site_name" content="kevin.hou.477的空间">
+<meta property="og:description" content="✨在前端开发领域，良好的代码规范是团队协作、项目可维护性的基石。最近在梳理我们团队关于代码规范相关的一些文档，顺便给大家分享一下我们是从哪些方面入手来从一个草台班子，到开发规范的高效团队。✨本文旨在提供一份详尽的前端代码规范指南，覆盖文件命名、组件编写、路由设计及代码风格等方面，帮助开发者建立清晰、一致的开发准则，进而提升项目质量与开发效率。 🚀1.文件命名规范 src下文件目录命名规范 api">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://houcw.github.io/img/index_3.jpg">
+<meta property="article:published_time" content="2024-06-30T12:41:06.000Z">
+<meta property="article:modified_time" content="2024-06-30T12:41:20.117Z">
+<meta property="article:author" content="kevin.hou.477">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://houcw.github.io/img/index_3.jpg"><link rel="shortcut icon" href="/img/logo.jpg"><link rel="canonical" href="https://houcw.github.io/2024/06/30/%E2%80%9C%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E2%80%9D%E8%BF%99%E6%A0%B7%E5%81%9A%E3%80%90%E9%AB%98%E7%BA%A7%E5%89%8D%E7%AB%AF%E5%BF%85%E5%A4%87%E8%BD%AF%E6%8A%80%E8%83%BD%E4%B9%8B%E4%B8%80%E3%80%91/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '“代码规范”这样做【高级前端必备软技能之一】',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-06-30 20:41:20'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="kevin.hou.477的空间" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/logo.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">24</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章总览</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 推荐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url('/img/index_3.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="kevin.hou.477的空间"><span class="site-name">kevin.hou.477的空间</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章总览</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 推荐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">“代码规范”这样做【高级前端必备软技能之一】</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-06-30T12:41:06.000Z" title="发表于 2024-06-30 20:41:06">2024-06-30</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-06-30T12:41:20.117Z" title="更新于 2024-06-30 20:41:20">2024-06-30</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="“代码规范”这样做【高级前端必备软技能之一】"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>✨在前端开发领域，良好的代码规范是团队协作、项目可维护性的基石。最近在梳理我们团队关于代码规范相关的一些文档，顺便给大家分享一下我们是从哪些方面入手来从一个<strong>草台班子</strong>，到开发规范的高效团队。<br>✨本文旨在提供一份详尽的前端代码规范指南，覆盖文件命名、组件编写、路由设计及代码风格等方面，帮助开发者建立清晰、一致的开发准则，进而提升项目质量与开发效率。</p>
+<h2 id="🚀1-文件命名规范-src下文件目录命名规范"><a href="#🚀1-文件命名规范-src下文件目录命名规范" class="headerlink" title="🚀1.文件命名规范 src下文件目录命名规范"></a>🚀1.文件命名规范 src下文件目录命名规范</h2><ol>
+<li>api 通用接口请求管理，子文件夹按模块划分，使用单英文单词命名。</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">方法名使用当前接口模块名+方法名，驼峰命名规则</span><br><span class="line">例如：</span><br><span class="line"><span class="attr">url</span>: <span class="string">&quot;/contract/template/list&quot;</span></span><br><span class="line">方法名为templateList</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>assets:静态资源css,image,js,scss</li>
+</ol>
+<ul>
+<li>css,scss文件命名规则：_+模块名.css</li>
+<li>img文件命名规则:英文单词命名，多单词以_连接</li>
+<li>js文件命名规则:以第三方引入的js文件名为准，不允许修改</li>
+</ul>
+<ol start="3">
+<li>common:公共模块（业务相关的公共模块）</li>
+</ol>
+<ul>
+<li>config:全局配置文件</li>
+<li>fetch:axios封装</li>
+<li>message:全局消息提示</li>
+<li>mixins:混入组件</li>
+<li>storage:本地储存封装</li>
+<li>plugins:业务相关的全局方法</li>
+</ul>
+<ol start="4">
+<li><p>components:基础组件；组件命名必须为多单词,用驼峰命名规范，首字母大写，基础组件内不处理业务逻辑，仅向外部传输数据</p>
+</li>
+<li><p>directives:指令 文件命名规则小驼峰命名规范;该文件夹仅需一个index入口文件，其他方法需要放在modules文件夹</p>
+</li>
+<li><p>filter:过滤器 文件命名规则小驼峰命名规范，该文件夹仅需一个index入口文件，其他方法需要放在modules文件夹</p>
+</li>
+<li><p>pages:公用页面，英文单词命名，小驼峰命名规范，该文件夹导出一个index.js的路由文件，任意子模块必须引入此文件，保持公用页面的name统一性</p>
+</li>
+<li><p>utils:全局公用方法，与业务无关，改文件夹导出一个index.js,暴露一个 install方法，使用Vue.use方法注册到全局</p>
+</li>
+<li><p>stroe:全局状态管理,</p>
+</li>
+</ol>
+<ul>
+<li>getter.js Vuex暴露出口，属性名使用驼峰命名</li>
+<li>modules 模块文件夹，各模块包含state,actions,mutations</li>
+<li>state属性使用驼峰命名</li>
+<li>action属性使用set_+state属性名,例如：set_token</li>
+<li>mutations属性使用SET_+state属性名全大写命名规则,例如：SET_TOKEN</li>
+</ul>
+<ol start="10">
+<li>hooks 钩子函数方法，index.js统一暴露出所有方法</li>
+<li>libs：全局常量</li>
+</ol>
+<ul>
+<li>const.js 常量</li>
+</ul>
+<h2 id="🚀2-组件代码规范"><a href="#🚀2-组件代码规范" class="headerlink" title="🚀2.组件代码规范"></a>🚀2.组件代码规范</h2><ol>
+<li><p>props命名规范</p>
+ <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">props: &#123;</span><br><span class="line">    <span class="attr">status</span>: &#123;</span><br><span class="line">        <span class="attr">type</span>: <span class="built_in">String</span>,</span><br><span class="line">        <span class="attr">required</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">validator</span>: <span class="function"><span class="keyword">function</span> (<span class="params">value. &#123;</span></span></span><br><span class="line"><span class="params"><span class="function">            <span class="keyword">return</span> [</span></span></span><br><span class="line"><span class="params"><span class="function">                <span class="string">&#x27;syncing&#x27;</span>,</span></span></span><br><span class="line"><span class="params"><span class="function">                <span class="string">&#x27;synced&#x27;</span>,</span></span></span><br><span class="line"><span class="params"><span class="function">                <span class="string">&#x27;version-conflict&#x27;</span>,</span></span></span><br><span class="line"><span class="params"><span class="function">                <span class="string">&#x27;error&#x27;</span></span></span></span><br><span class="line"><span class="params"><span class="function">            ].indexOf(value. !== -<span class="number">1</span></span></span></span><br><span class="line"><span class="params"><span class="function">        &#125;</span></span></span><br><span class="line"><span class="params"><span class="function">    &#125;</span></span></span><br><span class="line"><span class="params"><span class="function">&#125;</span></span></span><br></pre></td></tr></table></figure></li>
+<li><p>data书写规范</p>
+ <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">data: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">        <span class="attr">foo</span>: <span class="string">&#x27;bar&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li><p>  css 组件内的css必须使用scoped标签</p>
+</li>
+<li><p>  模板内复杂表达式必须使用计算属性</p>
+</li>
+<li><p>  生命周期函数按生命周期顺序书写</p>
+</li>
+<li><p>  页面初始化在mothods添加onload方法</p>
+</li>
+<li><p> 添加使用add+模块名 例如 addUser</p>
+</li>
+<li><p> 编辑使用edit+模块名 例如 editUser</p>
+</li>
+<li><p> 点击按钮打开某个弹框使用方法名示例：openDialogByUser</p>
+</li>
+<li><p> 删除方法示例 removeUser</p>
+</li>
+<li><p> 路由跳转方法示例 linkTo + 路由名（route信息的name字段）</p>
+</li>
+<li><p> boolean类型的变量使用is或has开头</p>
+</li>
+</ol>
+<h2 id="🚀3-路由命名规范"><a href="#🚀3-路由命名规范" class="headerlink" title="🚀3.路由命名规范"></a>🚀3.路由命名规范</h2><ol>
+<li>路由对象约定 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">path</span>: <span class="string">&#x27;/user-mgt&#x27;</span>,  <span class="comment">// 路由path和使用的文件名一致，以-连接</span></span><br><span class="line">    <span class="attr">name</span>: <span class="string">&#x27;UserMgt&#x27;</span>,    <span class="comment">// path的大驼峰连接</span></span><br><span class="line">    <span class="attr">component</span>: <span class="function">() =&gt;</span> <span class="keyword">import</span>(<span class="string">&quot;@/views/user-mgt/index.vue&quot;</span>),    <span class="comment">// 使用import按需加载组件</span></span><br><span class="line">    <span class="attr">meta</span>: &#123;</span><br><span class="line">      <span class="attr">title</span>: <span class="string">&quot;用户列表&quot;</span>,  <span class="comment">// 页面描述</span></span><br><span class="line">      <span class="attr">icon</span>: <span class="string">&#x27;icon-a-icon-xuqiuguanlisvg&#x27;</span>, <span class="comment">// icon</span></span><br><span class="line">      <span class="attr">roles</span>: [<span class="string">&#x27;UserMgt&#x27;</span>] <span class="comment">// 当前模块权限</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">children</span>: [</span><br><span class="line">      path: <span class="string">&#x27;&#x27;</span>,  <span class="comment">// 路由path和使用的文件名一致，以-连接</span></span><br><span class="line">      <span class="attr">name</span>: <span class="string">&#x27;UserMgtList&#x27;</span>, <span class="comment">// path的大驼峰连接</span></span><br><span class="line">      <span class="attr">component</span>: <span class="function">() =&gt;</span> <span class="keyword">import</span>(<span class="string">&quot;@/views/user-mgt/list/index.vue&quot;</span>),    <span class="comment">// 使用import按需加载组件</span></span><br><span class="line">      <span class="attr">meta</span>: &#123;</span><br><span class="line">        <span class="attr">title</span>: <span class="string">&quot;用户管理-列表&quot;</span>,  <span class="comment">// 页面描述</span></span><br><span class="line">        <span class="attr">activeRouter</span>: <span class="string">&quot;UserMgt&quot;</span>, <span class="comment">// 如果是子路由，必需设置改项，当前激活菜单</span></span><br><span class="line">        <span class="attr">moduleRoles</span>: [<span class="string">&#x27;user_page&#x27;</span>] <span class="comment">// 当前模块权限</span></span><br><span class="line">      &#125;,</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="🚀4-Views-文件夹命名规范"><a href="#🚀4-Views-文件夹命名规范" class="headerlink" title="🚀4.Views 文件夹命名规范"></a>🚀4.Views 文件夹命名规范</h2><p>务必于路由保持一直，采用<strong>树形结构</strong><br><img src="https://img-blog.csdnimg.cn/direct/242893e93aba44cd8349c3a3d31a143b.png" alt="在这里插入图片描述"></p>
+<ul>
+<li>list 存放对应的列表页面，如果有多个sheet，按照模块区分</li>
+<li>detail 中存放对应的详情页面</li>
+<li>dialog 存放该模块下的所有相关弹框</li>
+<li>components 存放该模块下的业务组件</li>
+</ul>
+<h2 id="🚀5-代码风格"><a href="#🚀5-代码风格" class="headerlink" title="🚀5.代码风格"></a>🚀5.代码风格</h2><ol>
+<li>代码风格使用standard无需配置的代码风格管理</li>
+<li>js代码规范：<a target="_blank" rel="noopener" href="https://standardjs.com/readme-zhcn.html">https://standardjs.com/readme-zhcn.html</a></li>
+<li>项目开发使用vscode进行开发</li>
+<li>vscode插件安装: StandardJS、ESLint、Prettier-Standard</li>
+<li>vscode配置文件 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">&quot;editor.tabSize&quot;</span>: <span class="number">2</span>,</span><br><span class="line">    <span class="string">&quot;editor.fontSize&quot;</span>: <span class="number">14</span>,</span><br><span class="line">    <span class="string">&quot;[jsonc]&quot;</span>: &#123;</span><br><span class="line">        <span class="string">&quot;editor.defaultFormatter&quot;</span>: <span class="string">&quot;vscode.json-language-features&quot;</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;[json]&quot;</span>: &#123;</span><br><span class="line">        <span class="string">&quot;editor.defaultFormatter&quot;</span>: <span class="string">&quot;vscode.json-language-features&quot;</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;[javascript]&quot;</span>: &#123;</span><br><span class="line">        <span class="string">&quot;editor.defaultFormatter&quot;</span>: <span class="string">&quot;vscode.typescript-language-features&quot;</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;[javascriptreact]&quot;</span>: &#123;</span><br><span class="line">        <span class="string">&quot;editor.defaultFormatter&quot;</span>: <span class="string">&quot;vscode.typescript-language-features&quot;</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;[css]&quot;</span>: &#123;</span><br><span class="line">        <span class="string">&quot;editor.defaultFormatter&quot;</span>: <span class="string">&quot;esbenp.prettier-vscode&quot;</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;[scss]&quot;</span>: &#123;</span><br><span class="line">        <span class="string">&quot;editor.defaultFormatter&quot;</span>: <span class="string">&quot;esbenp.prettier-vscode&quot;</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;[html]&quot;</span>: &#123;</span><br><span class="line">        <span class="string">&quot;editor.defaultFormatter&quot;</span>: <span class="string">&quot;vscode.html-language-features&quot;</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;[script]&quot;</span>: &#123;</span><br><span class="line">        <span class="string">&quot;editor.defaultFormatter&quot;</span>: <span class="string">&quot;esbenp.prettier-vscode&quot;</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;[typescript]&quot;</span>: &#123;</span><br><span class="line">        <span class="string">&quot;editor.defaultFormatter&quot;</span>: <span class="string">&quot;vscode.typescript-language-features&quot;</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;[vue]&quot;</span>: &#123;</span><br><span class="line">        <span class="string">&quot;editor.defaultFormatter&quot;</span>: <span class="string">&quot;esbenp.prettier-vscode&quot;</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;[typescriptreact]&quot;</span>: &#123;</span><br><span class="line">        <span class="string">&quot;editor.defaultFormatter&quot;</span>: <span class="string">&quot;esbenp.prettier-vscode&quot;</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;[markdown]&quot;</span>: &#123;</span><br><span class="line">        <span class="string">&quot;editor.defaultFormatter&quot;</span>: <span class="string">&quot;yzhang.markdown-all-in-one&quot;</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;prettier.bracketSameLine&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="comment">// 函数前面加个空格</span></span><br><span class="line">    <span class="string">&quot;javascript.format.insertSpaceBeforeFunctionParenthesis&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="comment">// 去掉代码结尾的分号</span></span><br><span class="line">    <span class="string">&quot;prettier.singleQuote&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="comment">// 使用带引号替代双引号</span></span><br><span class="line">    <span class="string">&quot;prettier.semi&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="🔥-结论"><a href="#🔥-结论" class="headerlink" title="🔥 结论"></a>🔥 结论</h2><p>遵循上述规范，不仅可以提升代码的可读性和可维护性，还能加速团队成员之间的协作，减少因个人习惯差异带来的代码审查和维护成本。规范化的代码结构和风格，是每一个高质量前端项目不可或缺的基础。通过持续优化和遵循这些准则，我们能够构建出更加健壮、易维护的前端应用。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://houcw.github.io">kevin.hou.477</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://houcw.github.io/2024/06/30/%E2%80%9C%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E2%80%9D%E8%BF%99%E6%A0%B7%E5%81%9A%E3%80%90%E9%AB%98%E7%BA%A7%E5%89%8D%E7%AB%AF%E5%BF%85%E5%A4%87%E8%BD%AF%E6%8A%80%E8%83%BD%E4%B9%8B%E4%B8%80%E3%80%91/">https://houcw.github.io/2024/06/30/%E2%80%9C%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E2%80%9D%E8%BF%99%E6%A0%B7%E5%81%9A%E3%80%90%E9%AB%98%E7%BA%A7%E5%89%8D%E7%AB%AF%E5%BF%85%E5%A4%87%E8%BD%AF%E6%8A%80%E8%83%BD%E4%B9%8B%E4%B8%80%E3%80%91/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://houcw.github.io" target="_blank">kevin.hou.477的空间</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/img/index_3.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/06/30/%E2%80%9C%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE%E5%A4%A7%E5%B1%8F2k%E3%80%814k%E3%80%818k%E2%80%9D%E8%BF%99%E6%A0%B7%E5%81%9A%E3%80%90%E9%AB%98%E7%BA%A7%E5%89%8D%E7%AB%AF%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%E4%B9%8B%E4%B8%80%E3%80%91/" title="“实时数据大屏2k、4k、8k”这样做【高级前端必备技能之一】"><img class="cover" src="/img/index_3.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">“实时数据大屏2k、4k、8k”这样做【高级前端必备技能之一】</div></div></a></div><div class="next-post pull-right"><a href="/2024/06/20/%E4%BD%8E%E4%BB%A3%E7%A0%81%E5%B9%B3%E5%8F%B0%E5%AE%9E%E8%B7%B5%EF%BC%9A%E6%89%93%E9%80%A0%E9%AB%98%E6%95%88%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E7%9A%84%E6%8E%A2%E7%B4%A2%E4%B8%8E%E6%80%9D%E8%80%83/" title="低代码平台实践：打造高效动态表单解决方案的探索与思考"><img class="cover" src="/img/index_3.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">低代码平台实践：打造高效动态表单解决方案的探索与思考</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/logo.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">kevin.hou.477</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">24</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/houcw"><i class="fab fa-github"></i><span>关注</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/houcw" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="/h13720613310@163.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎进入kevin的博客世界</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%9A%801-%E6%96%87%E4%BB%B6%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83-src%E4%B8%8B%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83"><span class="toc-number">1.</span> <span class="toc-text">🚀1.文件命名规范 src下文件目录命名规范</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%9A%802-%E7%BB%84%E4%BB%B6%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83"><span class="toc-number">2.</span> <span class="toc-text">🚀2.组件代码规范</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%9A%803-%E8%B7%AF%E7%94%B1%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83"><span class="toc-number">3.</span> <span class="toc-text">🚀3.路由命名规范</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%9A%804-Views-%E6%96%87%E4%BB%B6%E5%A4%B9%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83"><span class="toc-number">4.</span> <span class="toc-text">🚀4.Views 文件夹命名规范</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%9A%805-%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC"><span class="toc-number">5.</span> <span class="toc-text">🚀5.代码风格</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%94%A5-%E7%BB%93%E8%AE%BA"><span class="toc-number">6.</span> <span class="toc-text">🔥 结论</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/06/30/%E2%80%9C%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE%E5%A4%A7%E5%B1%8F2k%E3%80%814k%E3%80%818k%E2%80%9D%E8%BF%99%E6%A0%B7%E5%81%9A%E3%80%90%E9%AB%98%E7%BA%A7%E5%89%8D%E7%AB%AF%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%E4%B9%8B%E4%B8%80%E3%80%91/" title="“实时数据大屏2k、4k、8k”这样做【高级前端必备技能之一】"><img src="/img/index_3.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="“实时数据大屏2k、4k、8k”这样做【高级前端必备技能之一】"/></a><div class="content"><a class="title" href="/2024/06/30/%E2%80%9C%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE%E5%A4%A7%E5%B1%8F2k%E3%80%814k%E3%80%818k%E2%80%9D%E8%BF%99%E6%A0%B7%E5%81%9A%E3%80%90%E9%AB%98%E7%BA%A7%E5%89%8D%E7%AB%AF%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%E4%B9%8B%E4%B8%80%E3%80%91/" title="“实时数据大屏2k、4k、8k”这样做【高级前端必备技能之一】">“实时数据大屏2k、4k、8k”这样做【高级前端必备技能之一】</a><time datetime="2024-06-30T12:42:43.000Z" title="发表于 2024-06-30 20:42:43">2024-06-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/30/%E2%80%9C%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E2%80%9D%E8%BF%99%E6%A0%B7%E5%81%9A%E3%80%90%E9%AB%98%E7%BA%A7%E5%89%8D%E7%AB%AF%E5%BF%85%E5%A4%87%E8%BD%AF%E6%8A%80%E8%83%BD%E4%B9%8B%E4%B8%80%E3%80%91/" title="“代码规范”这样做【高级前端必备软技能之一】"><img src="/img/index_3.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="“代码规范”这样做【高级前端必备软技能之一】"/></a><div class="content"><a class="title" href="/2024/06/30/%E2%80%9C%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E2%80%9D%E8%BF%99%E6%A0%B7%E5%81%9A%E3%80%90%E9%AB%98%E7%BA%A7%E5%89%8D%E7%AB%AF%E5%BF%85%E5%A4%87%E8%BD%AF%E6%8A%80%E8%83%BD%E4%B9%8B%E4%B8%80%E3%80%91/" title="“代码规范”这样做【高级前端必备软技能之一】">“代码规范”这样做【高级前端必备软技能之一】</a><time datetime="2024-06-30T12:41:06.000Z" title="发表于 2024-06-30 20:41:06">2024-06-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/20/%E4%BD%8E%E4%BB%A3%E7%A0%81%E5%B9%B3%E5%8F%B0%E5%AE%9E%E8%B7%B5%EF%BC%9A%E6%89%93%E9%80%A0%E9%AB%98%E6%95%88%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E7%9A%84%E6%8E%A2%E7%B4%A2%E4%B8%8E%E6%80%9D%E8%80%83/" title="低代码平台实践：打造高效动态表单解决方案的探索与思考"><img src="/img/index_3.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="低代码平台实践：打造高效动态表单解决方案的探索与思考"/></a><div class="content"><a class="title" href="/2024/06/20/%E4%BD%8E%E4%BB%A3%E7%A0%81%E5%B9%B3%E5%8F%B0%E5%AE%9E%E8%B7%B5%EF%BC%9A%E6%89%93%E9%80%A0%E9%AB%98%E6%95%88%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E7%9A%84%E6%8E%A2%E7%B4%A2%E4%B8%8E%E6%80%9D%E8%80%83/" title="低代码平台实践：打造高效动态表单解决方案的探索与思考">低代码平台实践：打造高效动态表单解决方案的探索与思考</a><time datetime="2024-06-20T13:44:29.000Z" title="发表于 2024-06-20 21:44:29">2024-06-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/02/%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84%E4%B8%93%E5%B1%9EVue%E7%BB%84%E4%BB%B6%EF%BC%9A%E5%9F%BA%E4%BA%8EFullCalendar%E8%B6%85%E5%AE%9E%E7%94%A8%E2%80%9C%E6%97%A5%E7%A8%8B%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E7%BB%84%E4%BB%B6%E2%80%9D%E5%AE%9E%E6%88%98/" title="打造你的专属Vue组件：基于FullCalendar超实用“日程任务管理组件”实战"><img src="/img/index_3.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="打造你的专属Vue组件：基于FullCalendar超实用“日程任务管理组件”实战"/></a><div class="content"><a class="title" href="/2024/06/02/%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84%E4%B8%93%E5%B1%9EVue%E7%BB%84%E4%BB%B6%EF%BC%9A%E5%9F%BA%E4%BA%8EFullCalendar%E8%B6%85%E5%AE%9E%E7%94%A8%E2%80%9C%E6%97%A5%E7%A8%8B%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E7%BB%84%E4%BB%B6%E2%80%9D%E5%AE%9E%E6%88%98/" title="打造你的专属Vue组件：基于FullCalendar超实用“日程任务管理组件”实战">打造你的专属Vue组件：基于FullCalendar超实用“日程任务管理组件”实战</a><time datetime="2024-06-02T12:47:13.000Z" title="发表于 2024-06-02 20:47:13">2024-06-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/05/24/%E5%9F%BA%E4%BA%8EVue3-0-Node-js-%E7%9A%84-%E5%A4%A7%E6%96%87%E4%BB%B6%E5%88%87%E7%89%87%E4%B8%8A%E4%BC%A0%E3%80%81%E7%A7%92%E4%BC%A0%E3%80%81%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%A1%88%E6%A2%B3%E7%90%86/" title="基于Vue3.0 &amp; Node.js 的 大文件切片上传、秒传、断点续传实现方案梳理"><img src="/img/index_3.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="基于Vue3.0 &amp; Node.js 的 大文件切片上传、秒传、断点续传实现方案梳理"/></a><div class="content"><a class="title" href="/2024/05/24/%E5%9F%BA%E4%BA%8EVue3-0-Node-js-%E7%9A%84-%E5%A4%A7%E6%96%87%E4%BB%B6%E5%88%87%E7%89%87%E4%B8%8A%E4%BC%A0%E3%80%81%E7%A7%92%E4%BC%A0%E3%80%81%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%A1%88%E6%A2%B3%E7%90%86/" title="基于Vue3.0 &amp; Node.js 的 大文件切片上传、秒传、断点续传实现方案梳理">基于Vue3.0 &amp; Node.js 的 大文件切片上传、秒传、断点续传实现方案梳理</a><time datetime="2024-05-24T13:43:53.000Z" title="发表于 2024-05-24 21:43:53">2024-05-24</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By kevin.hou.477</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-fluttering-ribbon.min.js"></script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/click-heart.min.js" async="async" mobile="false"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

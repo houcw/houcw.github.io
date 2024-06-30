@@ -6,7 +6,7 @@
   <link href="https://houcw.github.io/atom.xml" rel="self"/>
   
   <link href="https://houcw.github.io/"/>
-  <updated>2024-06-20T13:46:22.464Z</updated>
+  <updated>2024-06-30T12:44:35.598Z</updated>
   <id>https://houcw.github.io/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>“实时数据大屏2k、4k、8k”这样做【高级前端必备技能之一】</title>
+    <link href="https://houcw.github.io/2024/06/30/%E2%80%9C%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE%E5%A4%A7%E5%B1%8F2k%E3%80%814k%E3%80%818k%E2%80%9D%E8%BF%99%E6%A0%B7%E5%81%9A%E3%80%90%E9%AB%98%E7%BA%A7%E5%89%8D%E7%AB%AF%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%E4%B9%8B%E4%B8%80%E3%80%91/"/>
+    <id>https://houcw.github.io/2024/06/30/%E2%80%9C%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE%E5%A4%A7%E5%B1%8F2k%E3%80%814k%E3%80%818k%E2%80%9D%E8%BF%99%E6%A0%B7%E5%81%9A%E3%80%90%E9%AB%98%E7%BA%A7%E5%89%8D%E7%AB%AF%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%E4%B9%8B%E4%B8%80%E3%80%91/</id>
+    <published>2024-06-30T12:42:43.000Z</published>
+    <updated>2024-06-30T12:44:35.598Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;🔥废话不多先上效果图&quot;&gt;&lt;a href=&quot;#🔥废话不多先上效果图&quot; class=&quot;headerlink&quot; title=&quot;🔥废话不多先上效果图&quot;&gt;&lt;/a&gt;🔥废话不多先上效果图&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>“代码规范”这样做【高级前端必备软技能之一】</title>
+    <link href="https://houcw.github.io/2024/06/30/%E2%80%9C%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E2%80%9D%E8%BF%99%E6%A0%B7%E5%81%9A%E3%80%90%E9%AB%98%E7%BA%A7%E5%89%8D%E7%AB%AF%E5%BF%85%E5%A4%87%E8%BD%AF%E6%8A%80%E8%83%BD%E4%B9%8B%E4%B8%80%E3%80%91/"/>
+    <id>https://houcw.github.io/2024/06/30/%E2%80%9C%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E2%80%9D%E8%BF%99%E6%A0%B7%E5%81%9A%E3%80%90%E9%AB%98%E7%BA%A7%E5%89%8D%E7%AB%AF%E5%BF%85%E5%A4%87%E8%BD%AF%E6%8A%80%E8%83%BD%E4%B9%8B%E4%B8%80%E3%80%91/</id>
+    <published>2024-06-30T12:41:06.000Z</published>
+    <updated>2024-06-30T12:41:20.117Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;✨在前端开发领域，良好的代码规范是团队协作、项目可维护性的基石。最近在梳理我们团队关于代码规范相关的一些文档，顺便给大家分享一下我们是从哪些方面入手来从一个&lt;strong&gt;草台班子&lt;/strong&gt;，到开发规范的高效团队。&lt;br&gt;✨本文旨在提供一份详尽的前端代码规范指南，覆</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>低代码平台实践：打造高效动态表单解决方案的探索与思考</title>
@@ -398,48 +440,6 @@
     
     
     <category term="浏览器相关" scheme="https://houcw.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9B%B8%E5%85%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vue 3.4.5深度解析：从基础到高级，掌握Composition API与全局API精髓</title>
-    <link href="https://houcw.github.io/2024/03/01/Vue-3-4-5%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%EF%BC%9A%E4%BB%8E%E5%9F%BA%E7%A1%80%E5%88%B0%E9%AB%98%E7%BA%A7%EF%BC%8C%E6%8E%8C%E6%8F%A1Composition-API%E4%B8%8E%E5%85%A8%E5%B1%80API%E7%B2%BE%E9%AB%93/"/>
-    <id>https://houcw.github.io/2024/03/01/Vue-3-4-5%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%EF%BC%9A%E4%BB%8E%E5%9F%BA%E7%A1%80%E5%88%B0%E9%AB%98%E7%BA%A7%EF%BC%8C%E6%8E%8C%E6%8F%A1Composition-API%E4%B8%8E%E5%85%A8%E5%B1%80API%E7%B2%BE%E9%AB%93/</id>
-    <published>2024-03-01T03:34:26.000Z</published>
-    <updated>2024-06-01T03:36:57.354Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;一、基础函数-amp-特性&quot;&gt;&lt;a href=&quot;#一、基础函数-amp-特性&quot; class=&quot;headerlink&quot; title=&quot;一、基础函数&amp;amp;特性&quot;&gt;&lt;/a&gt;一、基础函数&amp;amp;特性&lt;/h2&gt;&lt;h3 id=&quot;1-setup-函数&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>打造你的专属Vue组件：超实用“Descriptions展示组件开发”实战</title>
-    <link href="https://houcw.github.io/2024/02/03/%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84%E4%B8%93%E5%B1%9EVue%E7%BB%84%E4%BB%B6%EF%BC%9A%E8%B6%85%E5%AE%9E%E7%94%A8%E2%80%9CDescriptions%E5%B1%95%E7%A4%BA%E7%BB%84%E4%BB%B6%E5%BC%80%E5%8F%91%E2%80%9D%E5%AE%9E%E6%88%98/"/>
-    <id>https://houcw.github.io/2024/02/03/%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84%E4%B8%93%E5%B1%9EVue%E7%BB%84%E4%BB%B6%EF%BC%9A%E8%B6%85%E5%AE%9E%E7%94%A8%E2%80%9CDescriptions%E5%B1%95%E7%A4%BA%E7%BB%84%E4%BB%B6%E5%BC%80%E5%8F%91%E2%80%9D%E5%AE%9E%E6%88%98/</id>
-    <published>2024-02-03T13:46:26.000Z</published>
-    <updated>2024-06-03T13:49:35.712Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;组件效果&quot;&gt;&lt;a href=&quot;#组件效果&quot; class=&quot;headerlink&quot; title=&quot;组件效果&quot;&gt;&lt;/a&gt;组件效果&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
     
   </entry>
   
